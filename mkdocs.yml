@@ -1,0 +1,48 @@
+site_name: 多模态大数据采集与分析平台
+site_description: 多模态大数据采集与分析平台
+theme:
+    name: material
+    language: zh
+    font:
+        text: Roboto
+        code: Roboto Mono
+    features:
+        - navigation.instant
+        - navigation.instant.progress
+        - navigation.tracking
+        - navigation.indexes
+        - navigation.top
+        - toc.follow
+        - content.tooltips
+        - content.code.annotate
+        - content.code.copy
+        - content.code.select
+copyright: Copyright &copy; 2016 - 2024 TCMX
+markdown_extensions:
+    - tables
+    - toc:
+          permalink: true
+    - attr_list
+    - md_in_html
+    - pymdownx.details
+    - pymdownx.keys
+    - admonition
+    - pymdownx.emoji:
+          emoji_index: !!python/name:material.extensions.emoji.twemoji
+          emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    - pymdownx.superfences:
+          custom_fences:
+              - name: mermaid
+                class: mermaid
+                format: !!python/name:pymdownx.superfences.fence_code_format
+extra:
+    generator: false
+    # alternate:
+    #     - name: 简体中文
+    #       link: /zh/
+    #       lang: zh
+    #     - name: English
+    #       link: /en/
+    #       lang: en
+hooks:
+    - hooks.py
