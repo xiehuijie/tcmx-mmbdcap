@@ -11,7 +11,10 @@
         "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
     ],
     "markdownlint.config": {
-        "MD051": false
+        "MD051": false,
+        "MD033": false,
+        "MD025": false,
+        "MD007": false
     },
     "python.analysis.typeCheckingMode": "basic"
 }

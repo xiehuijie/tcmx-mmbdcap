@@ -2,4 +2,4 @@
 
 ## 介绍
 
-提供基于`Python`的开发工具包
+**`SDK`**全称`Software Development Kit`，中文名为**软件开发工具包**。我们的

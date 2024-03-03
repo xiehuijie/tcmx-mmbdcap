@@ -14,7 +14,6 @@ def on_nav(nav: Navigation, config: MkDocsConfig, files: Files):
                     break
                 if isinstance(child, Page) and child.file.src_path.endswith("index.md"):
                     child.read_source(config)
-                    print(child, child.meta)
                     item.title = child.title if isinstance(child.title, str) else item.title
                     break
         for child in item:
