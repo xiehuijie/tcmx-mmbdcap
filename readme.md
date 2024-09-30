@@ -2,10 +2,10 @@
 
 ## 关联项目
 
-- [平台数据中心](xiehuijie/datacenter)
-- [数据中心SDK](xiehuijie/datacenter-sdk)
-- [数据采集面板](xiehuijie/control-panel)
-- [评测项范式合集](xiehuijie/control-panel-evaluations)
+- [平台数据中心](/xiehuijie/datacenter)
+- [数据中心SDK](/xiehuijie/datacenter-sdk)
+- [数据采集面板](/xiehuijie/control-panel)
+- [评测项范式合集](/xiehuijie/control-panel-evaluations)
 
 ## 文档项目开发任务
 
