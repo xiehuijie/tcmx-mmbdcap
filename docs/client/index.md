@@ -19,3 +19,5 @@ title: 客户端
 ![客户端架构](https://qcloudimg.tencent-cloud.cn/raw/b0962034323720208296682480962034.png)
 
 ## 支持的范式
+
+详见[此表](supported-paradigm.md)
